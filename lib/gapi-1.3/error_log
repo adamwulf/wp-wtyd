@@ -1,0 +1,7 @@
+[18-Nov-2018 02:09:52 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'GAPI: Failed to authenticate user. Error: "https://developers.google.com/accounts/docs/AuthForInstalledApps
+"' in /home/internet/public_html/welcome/plugin-wtyd/lib/gapi-1.3/gapi.class.php:430
+Stack trace:
+#0 /home/internet/public_html/welcome/plugin-wtyd/lib/gapi-1.3/gapi.class.php(62): gapi->authenticateUser('youremail@email...', 'your password')
+#1 /home/internet/public_html/welcome/plugin-wtyd/lib/gapi-1.3/example.report.php(8): gapi->__construct('youremail@email...', 'your password')
+#2 {main}
+  thrown in /home/internet/public_html/welcome/plugin-wtyd/lib/gapi-1.3/gapi.class.php on line 430
